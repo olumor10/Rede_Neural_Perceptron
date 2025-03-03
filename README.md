@@ -3,15 +3,22 @@
 ## Descrição
 Este projeto implementa um Perceptron simples para classificar dados em duas classes. O modelo é treinado usando dados de um arquivo CSV e validado com outro conjunto de dados.
 
+### Projeto prático
+- Pela análise de um processo de destilação fracionada de petróleo observou-se que determinado óleo poderia ser classificado em duas classes de pureza $P_1 \text{ e } P_2$ a partir da medição de três grandezas $x_1, x_2 \text{ e } x_3$, que representam algumas de suas propriedades físico-químicas. A equipe de engenheiros e cientistas pretende usar uma rede Perceptron para executar a classificação automática das duas classes.
+
 ## Referência
 - SILVA, Ivan Nunes da; SPATTI, Danilo Hernane; FLAUZINO, Rogério Andrade. **Redes neurais artificiais:** para engenharia e ciências aplicadas. São Paulo: Artliber, 2010.
 
 ## Arquitetura do Perceptron
-O Perceptron possui uma camada de entrada com três neurônios (x1, x2, x3) e uma camada de saída com um neurônio. A função de ativação utilizada é a função degrau bipolar.
+Figura 3.8 – Arquitetura do Perceptron para o projeto prático 
+
+<img src="https://lh3.googleusercontent.com/pw/AP1GczMYzi2ugdKDyUZgBc3mS_s80LMpNmKGGX8lOVVAAQNsv-BEnJU9L5kFdzreNCAgi4LnXICLR4RpXG4oKSyD-cxpA8O241oepYrmlQKKDcDx1fz1_p2L94L9zPjGF-mX2QLO_sDLT0mwcgrJO_NfkfD2=w606-h289-s-no-gm?authuser=0" alt="Texto alternativo" width="400px" height="">
+
+Fonte: SILVA; SPATTI; FLAUZINO (2010)
 
 ## Dados
-- Os dados de treinamento estão no arquivo `apendice1.csv`.
-- Os dados de validação estão no arquivo `tabela3_3.csv`.
+- Os dados de treinamento estão no arquivo `dados_treinamento.csv`.
+- Os dados de validação estão no arquivo `dados_validacao.csv`.
 
 ## Como executar
 1. Importe as bibliotecas necessárias: `pandas`, `numpy`, `matplotlib`, e `plotly`.
