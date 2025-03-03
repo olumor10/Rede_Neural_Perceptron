@@ -6,10 +6,6 @@ Este projeto implementa um Perceptron simples para classificar dados em duas cla
 ## Referência
 - SILVA, Ivan Nunes da; SPATTI, Danilo Hernane; FLAUZINO, Rogério Andrade. **Redes neurais artificiais:** para engenharia e ciências aplicadas. São Paulo: Artliber, 2010.
 
-## Dupla
-- Rafael Azevedo
-- Rômulo Rodrigues
-
 ## Arquitetura do Perceptron
 O Perceptron possui uma camada de entrada com três neurônios (x1, x2, x3) e uma camada de saída com um neurônio. A função de ativação utilizada é a função degrau bipolar.
 
