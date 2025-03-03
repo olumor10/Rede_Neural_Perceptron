@@ -28,9 +28,6 @@ Fonte: SILVA; SPATTI; FLAUZINO (2010)
 5. Classifique os dados de validação usando o modelo treinado.
 6. Visualize os erros do modelo durante o treinamento.
 
-## Resultados
-O modelo atingiu uma acurácia de 100% nos dados de treinamento. Os resultados da classificação dos dados de validação são exibidos no console.
-
 ## Observações
 - O código foi desenvolvido em Python.
 - A semente para geração de números aleatórios não é essencial para o algoritmo, podendo ser excluída sem prejuízo.
